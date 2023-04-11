@@ -125,7 +125,7 @@ def displayOrder(customerPhone, orderNumber, destinationCountry, orderWeight, or
 
 def displayAllOrder(customerPhone, orderNumber, destinationCountry, orderWeight, orderCost):
     print("*" * 75)
-    print("%16s%16s%16s%16s%10s" % ("Customer Phone", "Order Number", "Country", "Weight", "Cost"))
+    print("%-16s%-16s%-16s%-16s%-10s" % ("Customer Phone", "Order Number", "Country", "Weight", "Cost"))
     print("*" * 75)
     for i in range(len(customerPhone)):
         print("%-16d%-16d%-16s%-16.2f%-10.3f" % (customerPhone[i], orderNumber[i], destinationCountry[i].upper(), orderWeight[i], orderCost[i]))
