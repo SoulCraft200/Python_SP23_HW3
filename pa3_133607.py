@@ -94,6 +94,328 @@ Algorithm:
         4)remove the index of all the lists using pop.
         5)Print conformation of removal.
 Test:
+    Case1:
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 1
+        Enter order information (customer phone number, country, weight in kg):90909090 uae 10
+        A new order has been added...
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        90909090        607618          UAE             10.00           14.500
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 1
+        Enter order information (customer phone number, country, weight in kg):80808080 ksa 15
+        A new order has been added...
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        80808080        184356          KSA             15.00           21.250
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 1
+        Enter order information (customer phone number, country, weight in kg):90909090 oman 10
+        A new order has been added...
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        90909090        742001          OMAN            10.00           9.500
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 1
+        Enter order information (customer phone number, country, weight in kg):30405060 uae 1
+        A new order has been added...
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        30405060        210935          UAE             1.00            5.950
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 1
+        Enter order information (customer phone number, country, weight in kg):20304050 bahrain 50
+        A new order has been added...
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        20304050        904663          BAHRAIN         50.00           54.500
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 1
+        Enter order information (customer phone number, country, weight in kg):10203040 kuwait 5
+        A new order has been added...
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        10203040        168017          KUWAIT          5.00            11.750
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 2
+        Enter order number: 168017
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        10203040        168017          KUWAIT          5.00            11.750
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 3
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        90909090        607618          UAE             10.00           14.500
+        80808080        184356          KSA             15.00           21.250
+        90909090        742001          OMAN            10.00           9.500
+        30405060        210935          UAE             1.00            5.950
+        20304050        904663          BAHRAIN         50.00           54.500
+        10203040        168017          KUWAIT          5.00            11.750
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 4
+        Enter customer phone: 90909090
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        90909090        607618          UAE             10.00           14.500
+        90909090        742001          OMAN            10.00           9.500
+        ***************************************************************************
+        Total cost of orders made by  90909090  is OMR 24.0 .
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 5
+        Enter country name: uae
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        90909090        607618          UAE             10.00           14.500
+        30405060        210935          UAE             1.00            5.950
+        ***************************************************************************
+        Total cost of orders shipped to  uae  is OMR 20.45 .
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 6
+        ********************************************************************************
+        Number of orders:  6
+        --------------------------------------------------------------------------------
+        Total orders cost:  117.45
+        --------------------------------------------------------------------------------
+        Average order cost:  19.575
+        --------------------------------------------------------------------------------
+        Order with highest cost:
+        orders number:  904663 , customer phone:  20304050 , country:  bahrain , cost:  54.5
+        --------------------------------------------------------------------------------
+        Order with lowest cost:
+        orders number:  210935 , customer phone:  30405060 , country:  uae , cost:  5.95
+        ********************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 3
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        90909090        607618          UAE             10.00           14.500
+        80808080        184356          KSA             15.00           21.250
+        90909090        742001          OMAN            10.00           9.500
+        30405060        210935          UAE             1.00            5.950
+        20304050        904663          BAHRAIN         50.00           54.500
+        10203040        168017          KUWAIT          5.00            11.750
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 7
+        Enter order number: 607618
+        Order number  607618  has been removed.
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 3
+        ***************************************************************************
+        Customer Phone  Order Number    Country         Weight          Cost
+        ***************************************************************************
+        80808080        184356          KSA             15.00           21.250
+        90909090        742001          OMAN            10.00           9.500
+        30405060        210935          UAE             1.00            5.950
+        20304050        904663          BAHRAIN         50.00           54.500
+        10203040        168017          KUWAIT          5.00            11.750
+        ***************************************************************************
+        ****************************************
+                 Al-Yaqeen Logistics
+          ****************************************
+          Select an operation:
+          1) Add order
+          2) Display order
+          3) Display all orders
+          4) Display orders per customer
+          5) Display orders per country
+          6) Display orders statistics
+          7) Remove order
+          8) Exit program
+          ****************************************
+        Enter your choice: 8
+        Are you sure you want to exit the application y/n: y
+        Goodbye!
+
 """
 from random import randint
 from sys import exit
@@ -107,7 +429,7 @@ def main():
     orderCost = []
     stop = False
     while not stop:
-        choice = displayMenu()
+        choice = displayMenu().strip()
         if choice == '1':
             addOrder(customerPhone, orderNumber, destinationCountry, orderWeight, orderCost)
         elif choice == '8':
@@ -138,11 +460,8 @@ def main():
 
 
 def displayMenu():
-    print('****************************************\n ', '		 Al-Yaqeen Logistics\n ',
-          '****************************************\n ', 'Select an operation:\n ', '1) Add order\n ',
-          '2) Display order\n ', '3) Display all orders\n ',
-          '4) Display orders per customer\n ', '5) Display orders per country\n ', '6) Display orders statistics\n ',
-          '7) Remove order\n ', '8) Exit program\n ', '****************************************')
+    print('****************************************\n ', '		 Al-Yaqeen Logistics\n ', '****************************************\n ', 'Select an operation:\n ', '1) Add order\n ', '2) Display order\n ', '3) Display all orders\n ',
+          '4) Display orders per customer\n ', '5) Display orders per country\n ', '6) Display orders statistics\n ', '7) Remove order\n ', '8) Exit program\n ', '****************************************')
 
     choice = input("Enter your choice: ")
     return choice
@@ -156,9 +475,7 @@ def addOrder(customerPhone, orderNumber, destinationCountry, orderWeight, orderC
         if len(tempList) == 3:
             if len(tempList[0]) == 8 and tempList[0].isdigit():
                 if tempList[1].lower() in gccList:
-                    if (tempList[2].isdigit() or (
-                            tempList[2].count('.') == 1 and tempList[2].replace('.', '').isdigit())) and float(
-                                tempList[2]) > 0:
+                    if (tempList[2].isdigit() or (tempList[2].count('.') == 1 and tempList[2].replace('.', '').isdigit())) and float(tempList[2]) > 0:
                         phoneNo = int(tempList[0])
                         dest = tempList[1]
                         weight = float(tempList[2])
@@ -179,8 +496,7 @@ def addOrder(customerPhone, orderNumber, destinationCountry, orderWeight, orderC
                         orderCost.append(cost)
                         print("A new order has been added...")
                         print("*" * 75)
-                        print("%-16s%-16s%-16s%-16s%-10s" % (
-                            "Customer Phone", "Order Number", "Country", "Weight", "Cost"))
+                        print("%-16s%-16s%-16s%-16s%-10s" % ("Customer Phone", "Order Number", "Country", "Weight", "Cost"))
                         print("*" * 75)
                         print("%-16d%-16d%-16s%-16.2f%-10.3f" % (phoneNo, random, dest.upper(), weight, cost))
                         print("*" * 75)
@@ -188,8 +504,7 @@ def addOrder(customerPhone, orderNumber, destinationCountry, orderWeight, orderC
                     else:
                         print("ERROR: Invalid weight! Try again.")
                 else:
-                    print("ERROR: None GCC country:", tempList[1],
-                          "\nCurrently no shipping services outside GCC.\nTry again.")
+                    print("ERROR: None GCC country:", tempList[1], "\nCurrently no shipping services outside GCC.\nTry again.")
             else:
                 print("ERROR: Invalid phone number. Try again!")
         elif len(tempList) > 3:
@@ -205,9 +520,7 @@ def displayOrder(customerPhone, orderNumber, destinationCountry, orderWeight, or
         print("*" * 75)
         print("%-16s%-16s%-16s%-16s%-10s" % ("Customer Phone", "Order Number", "Country", "Weight", "Cost"))
         print("*" * 75)
-        print("%-16d%-16d%-16s%-16.2f%-10.3f" % (
-            customerPhone[index], orderNumber[index], destinationCountry[index].upper(), orderWeight[index],
-            orderCost[index]))
+        print("%-16d%-16d%-16s%-16.2f%-10.3f" % (customerPhone[index], orderNumber[index], destinationCountry[index].upper(), orderWeight[index], orderCost[index]))
         print("*" * 75)
     else:
         print("ERROR: Invalid order number! Try again.")
@@ -218,8 +531,7 @@ def displayAllOrder(customerPhone, orderNumber, destinationCountry, orderWeight,
     print("%-16s%-16s%-16s%-16s%-10s" % ("Customer Phone", "Order Number", "Country", "Weight", "Cost"))
     print("*" * 75)
     for i in range(len(customerPhone)):
-        print("%-16d%-16d%-16s%-16.2f%-10.3f" % (
-            customerPhone[i], orderNumber[i], destinationCountry[i].upper(), orderWeight[i], orderCost[i]))
+        print("%-16d%-16d%-16s%-16.2f%-10.3f" % (customerPhone[i], orderNumber[i], destinationCountry[i].upper(), orderWeight[i], orderCost[i]))
     print("*" * 75)
 
 
@@ -234,8 +546,7 @@ def displayCustomer(customerPhone, orderNumber, destinationCountry, orderWeight,
             for i in range(len(customerPhone)):
                 if customerPhone[i] == int(num):
                     total += orderCost[i]
-                    print("%-16d%-16d%-16s%-16.2f%-10.3f" % (
-                        customerPhone[i], orderNumber[i], destinationCountry[i].upper(), orderWeight[i], orderCost[i]))
+                    print("%-16d%-16d%-16s%-16.2f%-10.3f" % (customerPhone[i], orderNumber[i], destinationCountry[i].upper(), orderWeight[i], orderCost[i]))
             print("*" * 75)
             print("Total cost of orders made by ", num, " is OMR", total, ".")
         else:
@@ -255,8 +566,7 @@ def displayCountryOrder(customerPhone, orderNumber, destinationCountry, orderWei
         for i in range(len(destinationCountry)):
             if destinationCountry[i] == name.lower():
                 total += orderCost[i]
-                print("%-16d%-16d%-16s%-16.2f%-10.3f" % (
-                    customerPhone[i], orderNumber[i], destinationCountry[i].upper(), orderWeight[i], orderCost[i]))
+                print("%-16d%-16d%-16s%-16.2f%-10.3f" % (customerPhone[i], orderNumber[i], destinationCountry[i].upper(), orderWeight[i], orderCost[i]))
         print("*" * 75)
         print("Total cost of orders shipped to ", name, " is OMR", total, ".")
     else:
@@ -279,12 +589,10 @@ def displayStatistics(customerPhone, orderNumber, destinationCountry, orderCost)
     print("Average order cost: ", avg)
     print("-" * 80)
     print("Order with highest cost:")
-    print("orders number: ", orderNumber[maxPos], ", customer phone: ", customerPhone[maxPos], ", country: ",
-          destinationCountry[maxPos], ", cost: ", orderCost[maxPos])
+    print("orders number: ", orderNumber[maxPos], ", customer phone: ", customerPhone[maxPos], ", country: ", destinationCountry[maxPos], ", cost: ", orderCost[maxPos])
     print("-" * 80)
     print("Order with lowest cost:")
-    print("orders number: ", orderNumber[minPos], ", customer phone: ", customerPhone[minPos], ", country: ",
-          destinationCountry[minPos], ", cost: ", orderCost[minPos])
+    print("orders number: ", orderNumber[minPos], ", customer phone: ", customerPhone[minPos], ", country: ", destinationCountry[minPos], ", cost: ", orderCost[minPos])
     print("*" * 80)
 
 
